@@ -25,7 +25,7 @@ function generateTR(data) {
         <td>${data.price}</td>
         <td>${data.category}</td>
         <td><img width="100px" src="${data.pic}"></td>
-        <td> <button onclick="deleteRow(this)">✘</button> </td>
+        <td> <button class="btn btn-danger" onclick="deleteRow(this)">✘</button> </td>
         
     </tr>
     `
